@@ -129,6 +129,8 @@ AUTHOR & CONTACT
 
 Course Project: MBAAN-211 Business Intelligence & Analytics
 
+Author : Shubham 25/DMBA/222
+
 Tech Stack: Python,jupyterlab, Pandas, Scikit-Learn, NLTK, TextBlob
 
 ================================================================================
