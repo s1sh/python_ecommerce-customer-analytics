@@ -101,3 +101,11 @@ python_consumer-reviews-analytics/
         └── 05_prescriptive.html          [View outputs without JupyterLab]
 
 
+===============================================================================
+HOW TO CONVERT JUPYTER NOTEBOOKS TO HTML (COMMAND-LINE)
+===============================================================================
+To generate/update the web-viewable HTML files in reports/html_notebooks/, 
+run the following command in PowerShell / Command Prompt:
+
+  jupyter nbconvert --to html notebooks/*.ipynb --output-dir=reports/html_notebooks/
+===============================================================================
