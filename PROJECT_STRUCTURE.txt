@@ -1,0 +1,103 @@
+================================================================================
+
+E-commerce customer analytics - COMPLETE PROJECT DIRECTORY GUIDE
+
+================================================================================
+
+
+
+This document details the layout of the repository and explains where to find
+
+interactive notebooks, command-line scripts, exported HTML reports, and models.
+
+
+
+--------------------------------------------------------------------------------
+
+DIRECTORY TREE
+
+--------------------------------------------------------------------------------
+
+
+
+python_consumer-reviews-analytics/
+
+│
+
+├── README.txt                            [Main documentation (Plain text)]
+
+├── PROJECT_STRUCTURE.txt                 [This directory structure guide]
+
+├── requirements.txt                      [Python package dependencies]
+
+│
+
+├── data/
+
+│   ├── raw/
+
+│   │   └── 1429_1.csv                    [Consumer Reviews of Amazon Products]
+
+│   └── processed/
+
+│       ├── cleaned_reviews.csv           [Cleaned base dataset]
+
+│       └── cleaned_reviews_sentiment.csv [Enriched dataset with TextBlob sentiment]
+
+│
+
+├── notebooks/                            [JupyterLab Interactive Notebooks]
+
+│   ├── 01_data_prep.ipynb                [ETL & Feature Engineering]
+
+│   ├── 02_descriptive.ipynb              [Descriptive Analytics & KPIs]
+
+│   ├── 03_text_mining.ipynb               [NLP & Sentiment Analysis]
+
+│   ├── 04_predictive.ipynb               [Models KNN/SVM/MLP]
+
+│   └── 05_prescriptive.ipynb             [Prescriptive Decision Trees]
+
+│
+
+├── src/                                  [Executable Python Scripts (.py)]
+
+│   ├── 01_data_prep.py                   [Run: python src/01_data_prep.py]
+
+│   ├── 02_descriptive.py                 [Run: python src/02_descriptive.py]
+
+│   ├── 03_text_mining.py                 [Run: python src/03_text_mining.py]
+
+│   ├── 04_predictive.py                  [Run: python src/04_predictive.py]
+
+│   └── 05_prescriptive.py                [Run: python src/05_prescriptive.py]
+
+│
+
+├── models/                               [Trained Model Binary Artifacts]
+
+│   ├── k-nearest_neighbors_knn.pkl       [KNN Model Binary]
+
+│   ├── support_vector_machines_svm.pkl   [SVM Model Binary]
+
+│   ├── neural_networks_mlp.pkl           [MLP Neural Network Binary]
+
+│   └── decision_tree_prescriptive.pkl    [Prescriptive Decision Tree Binary]
+
+│
+
+└── reports/                              [Reports & BI Dashboards]
+
+    |── html_notebooks/                   [Web Browser Readable HTML Exports]
+
+        ├── 01_data_prep.html             [View outputs without JupyterLab]
+
+        ├── 02_descriptive.html            [View outputs without JupyterLab]
+
+        ├── 03_text_mining.html           [View outputs without JupyterLab]
+
+        ├── 04_predictive.html            [View outputs without JupyterLab]
+
+        └── 05_prescriptive.html          [View outputs without JupyterLab]
+
+
